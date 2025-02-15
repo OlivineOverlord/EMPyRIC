@@ -1,0 +1,2 @@
+[console_scripts]
+empyric = empyric.cli:main

@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "empyric"
+version = "0.1.0"
+description = "A geochemical data management package using HDF5."
+authors = [{name = "Joshua Shea"}]
+dependencies = ["numpy", "pandas", "h5py"]
+
+[project.scripts]
+empyric = "empyric.cli:main"
